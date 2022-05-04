@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background-color: var(--main-color);
+}
+
+#menu-items{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#menu-items a, #logo{
+    color: var(--secundary-color);
+    font-size: var(--base-font-size);
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0rem 0.75rem;
+    transition: all 300ms;
+}
+
+#menu-items a:hover, #logo:hover{
+    text-decoration: underline;
+}

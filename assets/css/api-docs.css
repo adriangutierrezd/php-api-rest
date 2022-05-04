@@ -1,0 +1,26 @@
+pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre,
+code {
+    /* white-space: pre-line; */
+    font-size: 1.125rem;
+}
+
+.api-doc{
+    background: #eeee;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.function{
+    color: blueviolet;
+}
+.const{
+    color: crimson;
+}
+
+.special{
+    color: darkblue;
+}
